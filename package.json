@@ -1,0 +1,12 @@
+{
+  "name": "ip",
+  "version": "1.0.0",
+  "author": "Jorge Lobo <jlobo@opennebula.systems>",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jloboescalona2/ip.git"
+  },
+  "main": "src/ip",
+  "license": "MIT"
+}
