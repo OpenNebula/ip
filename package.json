@@ -1,12 +1,27 @@
-{ 
-  "name": "FireEdge-po2json", 
-  "version": "1.0.0", 
-  "description": "Opennebula FireEdge parse .po files to .js json", 
-  "main": "index.js", 
-  "author": "opennebula.io", 
-  "license": "ISC", 
+{
+  "name": "fireedge-pojson",
+  "version": "1.0.1",
+  "description": "Opennebula FireEdge parse .po files to .js json",
+  "main": "index.js",
+  "author": "opennebula.io",
+  "license": "ISC",
   "dependencies": {
     "fs-extra": "^9.0.1",
     "path": "^0.12.7"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenNebula/sunstone-deps.git"
+  },
+  "keywords": [
+    "fireedge",
+    "opennebula"
+  ],
+  "bugs": {
+    "url": "https://github.com/OpenNebula/sunstone-deps/issues"
+  },
+  "homepage": "https://github.com/OpenNebula/sunstone-deps#readme"
 }
