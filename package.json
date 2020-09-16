@@ -1,0 +1,12 @@
+{ 
+  "name": "FireEdge-po2json", 
+  "version": "1.0.0", 
+  "description": "Opennebula FireEdge parse .po files to .js json", 
+  "main": "index.js", 
+  "author": "opennebula.io", 
+  "license": "ISC", 
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "path": "^0.12.7"
+  }
+}
