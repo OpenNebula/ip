@@ -2,7 +2,8 @@ const {
   readFileSync,
   readdirSync,
   statSync,
-  createWriteStream
+  createWriteStream,
+  unlinkSync
 } = require('fs-extra');
 const { parse } = require('path');
 
@@ -85,9 +86,9 @@ const getFiles = (dir = '') => {
   return pathFiles;
 };
 
-const generateFile = () => {
+const generateFile = (remove = false ) => {
   pathFiles.forEach(file => {
-    if (file && file.name && file.string) {
+    if (file && file.name && file.string && file.path) {
       try {
         const stream = createWriteStream(
           `${options.exportPath}/${file.name}.js`
@@ -100,6 +101,13 @@ const generateFile = () => {
         });
         stream.write(`}\r`);
       } catch (error) {}
+      if(remove){
+        try {
+          unlinkSync(file.path)
+        } catch(err) {
+          console.error(err)
+        }
+      }
     }
   });
 };
