@@ -1,9 +1,1 @@
-{ 
-  "name": "FireEdge-genpotfile", 
-  "version": "1.0.2", 
-  "description": "Opennebula FireEdge generation pot file lib", 
-  "main": "index.js", 
-  "author": "opennebula.io", 
-  "license": "ISC", 
-  "dependencies": {}
-}
+{"name":"FireEdge-genpotfile","version":"1.1.0","description":"Opennebula FireEdge generation pot file lib","main":"index.js","author":"opennebula.io","license":"ISC"}
