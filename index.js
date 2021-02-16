@@ -9,11 +9,37 @@ const textStrings = [];
 const pathFiles = [];
 const quotes = ["'", '"'];
 
+const findInObject = (c="", d={}, s="") => {
+  var cs = c;
+  if(s){
+      cs = cs.split(s)
+  }
+  rtn = "";
+  if(Array.isArray(cs)){
+      var accumulator = d
+      for (var i = 0; i < cs.length; i++){
+          if(accumulator[cs[i]]){
+              accumulator=accumulator[cs[i]];
+               rtn = accumulator
+          }else{
+              rtn = ""
+              break;
+          }
+      };
+  }else{
+      if(d[c]){
+          rtn = d[c]
+      }
+  }
+  return rtn;
+}
+
 const getTextStrings = (pathfile = '', opts = {}) => {
   const options = opts || {};
   options.removeStart = opts.removeStart || '';
   options.removeEnd = opts.removeEnd || '';
   options.regex = opts.regex || '';
+  options.split = opts.split || null;
   options.regexTextCaptureIndex =
     opts.regexTextCaptureIndex !== undefined ? opts.regexTextCaptureIndex : 1;
   options.definitions = opts.definitions !== undefined ? opts.definitions : {};
@@ -31,10 +57,11 @@ const getTextStrings = (pathfile = '', opts = {}) => {
     }
     // definition
     if (quotes.indexOf(text.charAt(0))) {
-      text = `"${options.definitions[text] || text}"`;
+      text = `"${findInObject(text, options.definitions, options.split) || text}"`;
     } else {
       text = `"${text.replace(/"|'/g, '')}"`;
     }
+
     const findIndex = textStrings.findIndex(
       textString => textString && textString.msgid === text
     );
