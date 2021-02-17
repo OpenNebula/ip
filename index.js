@@ -29,12 +29,12 @@ const getTextStrings = (file = {}) => {
   if (file && file.name && file.path && file.string) {
     try {
       const lineString = readFileSync(file.path).toString();
-      const lines = lineString.split(/\r?\n/);
+      const lines = lineString.split(/\n|\r/g);
       lines.forEach((line, index) => {
         if (options && options.definition && options.value) {
           if (
-            options.definition.regex.exec(line) !== null &&
-            options.value.regex.exec(lines[index + 1]) !== null &&
+            Array.isArray(options.definition.regex.exec(line)) &
+            Array.isArray(options.value.regex.exec(lines[index + 1])) &&
             options.definition.removeStart instanceof RegExp &&
             options.definition.removeEnd instanceof RegExp &&
             options.value.removeStart instanceof RegExp &&
