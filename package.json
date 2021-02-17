@@ -1,6 +1,6 @@
 {
   "name": "fireedge-pojson",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Opennebula FireEdge parse .po files to .js json",
   "main": "index.js",
   "author": "opennebula.io",
