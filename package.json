@@ -1,0 +1,20 @@
+{
+  "name": "guacamole-opennebula",
+  "description": "guacamole server in node.js. RDP/VNC client for HTML5 browsers",
+  "version": "1.0.0",
+  "keywords": [
+    "guacamole",
+    "rdp",
+    "vnc",
+    "remote desktop"
+  ],
+  "dependencies": {
+    "deep-extend": "0.6.0",
+    "luxon": "1.25.0",
+    "ws": "1.1.5"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "Apache-2.0"
+}
