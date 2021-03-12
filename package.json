@@ -1,5 +1,5 @@
 {
-  "name": "guacamole-opennebula",
+  "name": "opennebula-guacamole",
   "description": "guacamole server in node.js. RDP/VNC client for HTML5 browsers",
   "version": "1.0.0",
   "keywords": [
