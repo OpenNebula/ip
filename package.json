@@ -1,0 +1,11 @@
+{
+  "name": "resumable.js",
+  "version": "1.0.1",
+  "main": "resumable.js",
+  "keywords": [
+    "HTML5 File API",
+    "Upload",
+    "Large files"
+  ],
+  "homepage": "https://github.com/23/resumable.js"
+}
