@@ -1,5 +1,6 @@
 {
   "name": "wmks",
   "homepage": "https://github.com/OpenNebula/sunstone-deps",
-  "main": "wmks.min.js"
+  "main": "wmks.min.js",
+  "version": "2.1.0"
 }
