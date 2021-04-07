@@ -1,0 +1,12 @@
+{
+  "name": "no-vnc",
+  "homepage": "https://github.com/novnc/noVNC",
+  "_release": "9fe2fd04d4",
+  "_resolution": {
+    "type": "commit",
+    "commit": "9fe2fd04d4"
+  },
+  "_source": "https://github.com/novnc/noVNC.git",
+  "_target": "9fe2fd04d4",
+  "_originalSource": "https://github.com/novnc/noVNC.git"
+}
