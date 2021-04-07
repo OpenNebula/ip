@@ -1,4 +1,5 @@
 {
   "name": "spice-html5",
-  "homepage": "https://github.com/freedesktop/spice-html5"
+  "homepage": "https://github.com/freedesktop/spice-html5",
+  "version": "0.1.7"
 }
