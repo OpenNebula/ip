@@ -1,5 +1,6 @@
 {
   "name": "ace-builds",
   "homepage": "https://github.com/OpenNebula/sunstone-deps",
-  "main": "ace.js"
+  "main": "ace.js",
+  "version": "1.0.0"
 }
