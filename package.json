@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "opennebula"
+  },
+  "dependencies": {
+    "diff-match-patch": "1.0.4",
+    "lodash.get": "4.4.2",
+    "lodash.isequal": "4.5.0",
+    "prop-types": "15.7.2"
+  },
+  "description": "A react component for Ace Editor",
+  "homepage": "https://github.com/securingsincity/react-ace#readme",
+  "keywords": [
+    "ace",
+    "ace editor",
+    "react-component",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-opennebula-ace",
+  "peerDependencies": {
+    "react": "^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0",
+    "react-dom": "^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/securingsincity/react-ace.git"
+  },
+  "version": "1.0.1"
+}
