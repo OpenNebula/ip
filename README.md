@@ -14,7 +14,7 @@ It's usually best to install this locally once per project, that way you can hav
 2. Then we need to install everything needed by the config:
 
 ```
-npx install-peerdeps --dev eslint-config-opennebula
+npm install --save-dev eslint eslint-config-opennebula
 ```
 
 3. Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your `.eslintrc` file should look like this:
