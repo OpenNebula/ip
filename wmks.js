@@ -1,3 +1,7 @@
+import 'jquery'
+import 'jquery-ui'
+import 'jquery-ui/themes/base/jquery-ui.css'
+
 (function() {
     function a(a) {
         var b = a.length, c = new Array(Math.ceil(b / 8)), d, e;
@@ -1297,7 +1301,7 @@
         var i;
         i = this._canvas[a].ctx.getImageData(b, c, d, e),
         this._canvas[f].ctx.putImageData(i, g, h),
-        delete i
+        i = null
     }
     ,
     WMKS.VNCDecoder.prototype._copyRectDrawImage = function(a, b, c, d, e, f, g, h) {
