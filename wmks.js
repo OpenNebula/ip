@@ -1,6 +1,8 @@
 import 'jquery'
 import 'jquery-ui'
 
+var WMKS = {}
+
 (function() {
     function a(a) {
         var b = a.length, c = new Array(Math.ceil(b / 8)), d, e;
@@ -7339,9 +7341,9 @@ import 'jquery-ui'
         }
     }(),
     $.widget("wmks.wmks", WMKS.widgetProto)
-}
-)(),
-function() {
+})();
+
+(function() {
     $.extend(WMKS.CONST, {
         Position: {
             CENTER: 0,
@@ -9063,4 +9065,4 @@ function() {
     ,
     WMKS.buildNumber = "11613346",
     WMKS.version = "2.1.0"
-}();
+})();
