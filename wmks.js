@@ -1,6 +1,5 @@
 import 'jquery'
 import 'jquery-ui'
-import 'jquery-ui/themes/base/jquery-ui.css'
 
 (function() {
     function a(a) {
