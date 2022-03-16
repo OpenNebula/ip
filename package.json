@@ -1,6 +1,9 @@
 {
-  "name": "wmks",
-  "homepage": "https://github.com/OpenNebula/sunstone-deps",
+  "name": "opennebula-wmks",
+  "version": "2.1.0",
+  "description": "VMware implementation to handle remote console events",
   "main": "wmks.min.js",
-  "version": "2.1.0"
+  "author": "OpenNebula Systems (https://opennebula.io/)",
+  "repository": "git@github.com:OpenNebula/one.git",
+  "license": "Apache-2.0"
 }
