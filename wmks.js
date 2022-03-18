@@ -10766,4 +10766,4 @@ let WMKS = {}
     (WMKS.version = '2.1.0')
 })()
 
-export { WMKS }
+export default WMKS

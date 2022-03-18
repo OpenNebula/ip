@@ -2,13 +2,26 @@
   "name": "opennebula-wmks",
   "version": "2.1.0",
   "description": "VMware implementation to handle remote console events",
-  "main": "wmks.min.js",
   "author": "OpenNebula Systems (https://opennebula.io/)",
   "repository": "git@github.com:OpenNebula/one.git",
   "license": "Apache-2.0",
   "type": "module",
+  "main": "dist/wmks.js",
+  "module": "dist/wmks.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "dependencies": {
     "jquery": "3.6.0",
     "jquery-ui": "1.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.7",
+    "@babel/plugin-transform-runtime": "7.17.0",
+    "@babel/preset-env": "7.16.11",
+    "@rollup/plugin-babel": "5.3.1",
+    "@rollup/plugin-commonjs": "21.0.2",
+    "@rollup/plugin-node-resolve": "13.1.3",
+    "rollup": "2.70.1"
   }
 }
