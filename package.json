@@ -1,6 +1,6 @@
 {
   "name": "opennebula-wmks",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "VMware implementation to handle remote console events",
   "author": "OpenNebula Systems (https://opennebula.io/)",
   "repository": "git@github.com:OpenNebula/one.git",
