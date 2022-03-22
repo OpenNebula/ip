@@ -14,8 +14,7 @@
  * limitations under the License.                                            *
  * ------------------------------------------------------------------------- */
 import $ from 'jquery'
-import 'jquery-ui/ui/core'
-import 'jquery-ui/ui/widgets/dialog'
+import 'jquery-ui-dist/jquery-ui'
 
 let WMKS = {}
 
