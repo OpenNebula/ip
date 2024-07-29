@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-opennebula",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "ESLint configuration used by OpenNebula Systems",
   "main": "index.js",
   "author": "OpenNebula Systems (https://opennebula.io/)",
